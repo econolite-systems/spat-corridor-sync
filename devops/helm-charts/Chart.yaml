@@ -1,0 +1,4 @@
+apiVersion: v1
+description: SPaT Corridor Sync
+name: "spat-corridor-sync"
+version: 0.1.0

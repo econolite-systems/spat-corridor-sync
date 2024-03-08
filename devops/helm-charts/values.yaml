@@ -1,0 +1,13 @@
+spatCorridorSync:
+  name: spat-corridor-sync
+  imageRepository: cosysdev.azurecr.io/spat-corridor-sync
+  service:
+    port: 80
+  probes:
+    enabled: false
+  kafka:
+    groupId: 'spatCorridorSync'
+  authentication:
+    clientId: cluster-services
+  url: https://configuration.api.mound-rd.cosysdev.com
+  resources: {}

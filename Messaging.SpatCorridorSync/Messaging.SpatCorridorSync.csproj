@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Econolite.Ode.Messaging.SpatCorridorSync</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="$(SolutionDir)\common\Messaging\Messaging.csproj" />
+      <ProjectReference Include="..\Models.SpatCorridorSync\Models.SpatCorridorSync.csproj" />
+    </ItemGroup>
+
+</Project>
